@@ -3,9 +3,12 @@ const STATIC_CACHE = "static-v1";
 const APP_SHELL = [
   "/",
   "index.html",
+  //"Juegos.html",
+  //"crud.html",
   "css/styles.css",
   "js/main.js",
-  "images/km.png",
+  //"crud.js",
+  //"images/km.png",
 ];
 
 self.addEventListener("install", (e) => {
